@@ -18,6 +18,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { NavLink } from 'react-router-dom';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import MoreIcon from '@mui/icons-material/More';
+import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 
 
 const drawerWidth = 240;
@@ -89,6 +91,8 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 let adminlink = [
   { title: "Course", icon: <LibraryBooksIcon />, to: "/admine/course" },
+  { title: "Subcourse", icon: <MoreIcon />, to: "/admine/subcourse" },
+  { title: "Students", icon: <SelfImprovementIcon />, to: "/admine/students" },
  
 ]
 
